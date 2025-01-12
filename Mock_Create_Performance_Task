@@ -1,1 +1,22 @@
+from cmu_graphics import*
+
+
+icecream = Group(
+    Polygon(170,300,120,150,220,150,fill='gold'),
+    Circle(130,130,45,fill='brown'),
+    Circle(200,130,45,fill='pink'),
+    Circle(165,80,45,fill=rgb(252,255,230)
+           ))
+    
+                                                                    
+
+
+
+def onMousePress(MouseX,MouseY):
+    icecream.centerX += 15
+
+def onMouseRelease(MouseX,MouseY):
+    icecream.centerX ==30
+    
+cmu_graphics.run()
 
